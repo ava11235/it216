@@ -35,6 +35,7 @@ ZyBooks Digital textbook
 1. Sign in or create an account at learn.zybooks.com
 2. Enter zyBook code: SEATTLECENTRALIT216MeredithSpring2021
 3. Subscribe
+Note: Students can get access to Chapter 1 for free if needed.
 
 ## Software we will use in class 				
 
