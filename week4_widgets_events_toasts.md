@@ -28,6 +28,25 @@ CheckBox is used for checking one more option.
 
 The Spinner is used to select an option from an array of strings.  The AdapterView.OnItemSelectedListener interface and its  onItemSelected() callback method are called  when a spinner item is selected.
 
+### Material Design
+
+Google’s material design provides design guidelines with the goal of  providing a unified design system to follow across all types of devices yet  allowing for customization.
+
+Material Design is based on the following principles:
+
+Material is a metaphor for the physical world,  its textures and how they interact with light and shadow.
+Bold, graphic and inspired by print design, including  typography, grids, space, scale, color, and imagery. 
+Motion provides meaning. Animated motion helps make the user  feel more immersed in the user experience.
+Flexible foundation. Material design allows for seamless integration with custom design, code or plugins.
+Cross Platform. Material design allows for the same UI to be applied on all types of devices on Android as well as on iOS, Flutter framework or the web.
+
+Considerations for Material Design usage:
+
+Material design provides clear guidelines for developing Android apps.
+Material design includes many built in animations. 
+The Material Design specification can be complicated to follow. 
+Usability issues: Some Material design  icons and buttons do not clearly convey what their purpose is.  
+
 
 ## Reference
 
