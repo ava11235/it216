@@ -47,7 +47,7 @@ Material design includes many built in animations. 
 The Material Design specification can be complicated to follow. 
 Usability issues: Some Material design  icons and buttons do not clearly convey what their purpose is.  
 
-###Example 
+### Example 
 Toast, Buttons, Events [here](https://docs.google.com/document/d/1Ru-rkq7o42yp1iEag67OflSTcsgT8EOUDLoDhSDjVUY/edit?usp=sharing)
 
 ## Reference
