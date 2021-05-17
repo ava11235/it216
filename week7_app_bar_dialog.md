@@ -15,6 +15,8 @@ Dice Roller App
 
 https://github.com/ava11235/TimerTaskExample
 
+![Timer Task](https://github.com/ava11235/it216/blob/main/timer-task.JPG) 
+
 ## Reference
 https://developer.android.com/training/appbar/
 
