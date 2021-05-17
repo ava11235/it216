@@ -19,6 +19,9 @@ https://developer.android.com/training/appbar/
 
 https://developer.android.com/guide/topics/ui/dialogs
 
+https://developer.android.com/reference/android/os/CountDownTimer.html
+
+https://material.io/components/dialogs#usage
 
 ## Practice
 
