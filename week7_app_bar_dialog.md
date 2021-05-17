@@ -11,7 +11,7 @@ The dialog is a window, which prompts the user for an action before they can pro
 
 
 ### Example:
-
+Dice Roller App
 
 
 ## Reference
