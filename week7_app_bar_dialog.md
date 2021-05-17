@@ -10,9 +10,10 @@ The app bar, also known as the action bar, is used to access important actions
 The dialog is a window, which prompts the user for an action before they can proceed with using the app.
 
 
-### Example:
+### Examples:
 Dice Roller App
 
+https://github.com/ava11235/TimerTaskExample
 
 ## Reference
 https://developer.android.com/training/appbar/
