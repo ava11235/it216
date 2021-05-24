@@ -8,11 +8,18 @@ A fragment is an object that represents and controls a reusable portion of the a
 A fragment defines and manages its own layout, has its own lifecycle, and can handle its own input events.
 However, Fragments must be hosted by an activity or another fragment. 
 
-Fragments implement the "master-detail design pattern," where one the "master" keeps a list of items and selecting an item from the list shows the item's "detail."
+
 
 Fragments make apps more modular.
 
 When fragments need data from the hosted activity, an activity uses fragment arguments to provide data to the fragment.
+
+
+### Design Patterns
+
+The singleton pattern is a software design pattern that only permits the instantiation of a class to a single object. A class that implements the singleton pattern is called a singleton.  Singleton pattern is commonly used in multi-threaded and database applications. 
+
+Fragments implement the "master-detail design pattern," where one the "master" keeps a list of items and selecting an item from the list shows the item's "detail."
 
 ### Examples:
 1. The Band Database app (zyBooks)
