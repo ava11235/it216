@@ -22,10 +22,7 @@ The singleton pattern is a software design pattern that only permits the instant
 Fragments implement the "master-detail design pattern," where one the "master" keeps a list of items and selecting an item from the list shows the item's "detail."
 
 ### Examples:
-1. The Band Database app (zyBooks)
-
-2. Fragment Example 
-https://github.com/ava11235/FragmentExample/tree/master
+The Band Database app (zyBooks)
 
 
 ## Reference
