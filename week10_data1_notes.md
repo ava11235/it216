@@ -41,6 +41,7 @@ Editor editor = sharedpreferences.edit();editor.putString("key", "value");editor
 
 Other methods available in the editor class that allow manipulation of data inside shared preferences include: 
 
+
 *apply()* This is an abstract method. Commit your changes back from editor to the sharedPreference object you are calling
 
 *clear()* Remove all values from the editor
@@ -55,6 +56,48 @@ Other methods available in the editor class that allow manipulation of data insi
 
 
 ### Working with Files
+
+Android provides several types of storage for application data, such as shared preferences, internal and external storage, SQLite database, or the cloud.
+
+By default application files are private and can only be accessed by the application.  The files are deleted when the user deletes the application.
+
+To write data to a file, call the openFileOutput() method with the name of the file and the mode. 
+The mode can be private , public.
+
+```
+FileOutputStream fOut = openFileOutput("myfile",MODE_PRIVATE);
+```
+
+The method openFileOutput() returns an instance of FileOutputStream which has the write method to write data on the file:
+
+```
+String str = "some text";
+fOut.write(str.getBytes());
+fOut.close();
+```
+
+To read from the file,  call the openFileInput() method with the name of the file.
+It returns an instance of FileInputStream.
+
+```
+FileInputStream fin = openFileInput(file);
+```
+
+To read one character at a time from the file and then you can print it, use:
+
+```
+int c;
+String temp="";
+while( (c = fin.read()) != -1){
+
+  temp = temp + Character.toString((char)c);
+
+} //string temp contains all the data of the file.
+
+fin.close();
+```
+
+Additional  methods are provided by the FileOutputStream. 
 
 
 ### Examples:
